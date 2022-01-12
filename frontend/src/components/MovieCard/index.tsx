@@ -22,7 +22,7 @@ function MovieCard() {
         <h3>{movie.title}</h3>
         <MovieScore />
 
-        <Link to= {'/Form/${movie.id}'}>
+        <Link to= {`/Form/${movie.id}`}>
           <div className="btn btn-primary dsmovie-btn">Avaliar</div>
         </Link>
       </div>
